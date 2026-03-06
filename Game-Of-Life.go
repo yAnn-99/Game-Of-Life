@@ -41,4 +41,4 @@ func main() {
 // je vois pas dutout comment continuer, jpense que parcourir recursivement chaque case et le store dans une list / dict
 // et une sorte de fonction update qui a acces a ces données et qui traite le prochain print
 // j'ai essayé de le faire moi meme mais je vois pas dutout comment le faire sans tuto d'un type qui le fait ou un truc
-// specifiquement pour ca
+// specifiquement pour ca, fin je vois pasdutout comment faire ca 100% moi meme en ayant a pein appris le language
