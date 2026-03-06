@@ -22,11 +22,21 @@ func main() {
 		board[i] = make([]int, 10)
 	}
 
-	board[rand.Intn(9)][rand.Intn(9)] = 1
+	count := rand.Intn(20) + 3
+	for i := 0; i < count; i++ {
+		board[rand.Intn(10)][rand.Intn(10)] = 1
+	}
 
+	for range ticker.C {
+		printBoard(board)
+
+	}
 	printBoard(board)
 
 	ticker := time.NewTicker(1 * time.Second)
 	defer ticker.Stop()
 
 }
+
+//je vois pas dutout comment continuer, jpense que parcourir recursivement chaque case et le store dans une list / dict
+// et une sorte de fonction update qui a acces a ces données et qui traite le prochain print
