@@ -42,3 +42,5 @@ func main() {
 // et une sorte de fonction update qui a acces a ces données et qui traite le prochain print
 // j'ai essayé de le faire moi meme mais je vois pas dutout comment le faire sans tuto d'un type qui le fait ou un truc
 // specifiquement pour ca, fin je vois pasdutout comment faire ca 100% moi meme en ayant a pein appris le language
+// je penses que je pourrais le faire rapidement si je suivais un tuto fait pour ca mais comme ca doit 100% etre notre code
+// j'en suis incapable a l'heure actuelle
